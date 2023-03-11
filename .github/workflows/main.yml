@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Important Links</title>
+</head>
+<body>
+	<h1>Important Links</h1>
+	<ul>
+		<li><a href="https://www.example.com">Example Website</a></li>
+		<li><a href="https://www.example.org">Example Organization</a></li>
+		<li><a href="https://www.example.net">Example Network</a></li>
+		<li><a href="https://www.example.edu">Example University</a></li>
+	</ul>
+</body>
+</html>
