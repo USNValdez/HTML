@@ -1,34 +1,110 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My HTML file</title>
-    <script src="javascript.js"></script>
+    <title>Final Control Position</title>
+    <style>
+      /* Add CSS styles to format the page */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+      }
+      
+      .aircraft {
+        width: 300px;
+        height: 150px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      
+      .aircraft img {
+        width: 50px;
+        height: 50px;
+      }
+      
+      .aircraft span {
+        font-size: 1.5em;
+      }
+      
+      .aircraft button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.2em;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .aircraft button:hover {
+        background-color: #3e8e41;
+      }
+      
+      .alert {
+        background-color: #f44336;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+        display: none;
+      }
+      
+      .alert.show {
+        display: block;
+      }
+    </style>
   </head>
   <body>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Airfield with controllable targets</title>
-  </head>
-  <body>
-    <h1>Airfield with controllable targets</h1>
-    <img src="Capture.PNG" alt="Airfield" usemap="#targets">
-    <map name="targets">
-      <area shape="rect" coords="100,100,200,200" href="#">
-      <area shape="rect" coords="300,300,400,400" href="#">
-    </map>
-  </body>
-</html>
-  </body>
-</html>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My HTML file</title>
-    <link rel="stylesheet" href="css.css">
-  </head>
-  <body>
-    <!-- Your HTML content goes here -->
-  </body>
-</html>
+    <div class="header">
+      <h1>Final Control Position</h1>
+    </div>
+    <div class="container">
+      <div class="aircraft">
+        <img src="aircraft1.png" alt="Aircraft 1">
+        <span>Aircraft 1</span>
+        <button onclick="alert('Cleared to land')">Clear to Land</button>
+      </div>
+      <div class="aircraft">
+        <img src="aircraft2.png" alt="Aircraft 2">
+        <span>Aircraft 2</span>
+        <button onclick="alert('Cleared to land')">Clear to Land</button>
+      </div>
+      <div class="aircraft">
+        <img src="aircraft3.png" alt="Aircraft 3">
+        <span>Aircraft 3</span>
+        <button onclick="alert('Cleared to land')">Clear to Land</button>
+      </div>
+      <div class="aircraft">
+        <img src="aircraft4.png" alt="Aircraft 4">
+        <span>Aircraft 4</span>
+        <button onclick="alert('Cleared to land')">Clear to Land</button>
+      </div>
+      <div class="aircraft">
+        <img src="aircraft5.png" alt="Aircraft 5">
+        <span>Aircraft 5</span>
+       
